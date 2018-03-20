@@ -6,5 +6,5 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
 - scala logout:
     - :quit
 - wireshark SSLLOGFILE:
-    - sudo -> failed
-    - su (open wireshark & browser in terminal) -> succeed
+    - sudo -> false
+    - su (open wireshark & browser in terminal) -> true
