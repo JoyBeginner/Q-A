@@ -5,3 +5,6 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - \exit
 - scala logout:
     - :quit
+- wireshark SSLLOGFILE:
+    - sudo -> failed
+    - su (open wireshark & browser in terminal) -> succeed
