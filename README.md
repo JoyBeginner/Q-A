@@ -6,6 +6,8 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - \exit
 - scala logout:
     - :quit
+- py logout
+    - exit()
 - wireshark SSLLOGFILE:
     - sudo -> false
     - su (open wireshark & browser in terminal) -> true
@@ -19,6 +21,7 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - ~/.bashrc 添加 JAVA_HOME CLASSPATH PATH(bin java) <- 设置PATH=$JAVA_PATH:$PATH
     - update-alternatives --config java <- 改变/usr/bin/java的指向
     - 结果:
+    
         update-alternatives --config java 并不改变,因为先查在前的PATH
 
 ## 基础
