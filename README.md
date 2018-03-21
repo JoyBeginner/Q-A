@@ -1,5 +1,12 @@
 # Q-A
 Here is the PROBLEM&amp;SOLUTION I ever met.
+# contens
+
+[1.git Cli](#git)
+
+[2.技巧](#tips)
+
+[3.安装与配置](#config)
 
 ## git
 - push
@@ -15,6 +22,8 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
             - git@github.com:*.git -> right
     - git push -u origin master
 
+
+[返回目录](#contents)
 ## Tips
 - jshell logout:
     - \exit
@@ -38,9 +47,13 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     
         update-alternatives --config java 并不改变,因为先查在前的PATH
      
+     
+[返回目录](#contents)
     
-## 安装与配置
+## config
 - apache2 php7 mysql
     - apache2 apache2-mod-php7.0 php7.0 php7.0-mysql mysql-server mysql-client
     - config files:fpm/php.ini cli/php.ini apache2/conf.d
 - Hadoop spark jdk scala
+
+[返回目录](#contents)
