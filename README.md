@@ -60,3 +60,8 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     Client --> | ACK=1 ackNumber=Seq1+1 | --> Server    
     ```  
     <img src="pics/bye.png">
+    
+## 安装与配置
+- apache2 php7 mysql
+    - apache2 apache2-mod-php7.0 php7.0 php7.0-mysql mysql-server mysql-client
+-Hadoop spark jdk scala
