@@ -1,6 +1,7 @@
 # Q-A
 Here is the PROBLEM&amp;SOLUTION I ever met.
 
+## Tips
 - jshell logout:
     - \exit
 - scala logout:
@@ -14,3 +15,10 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - sudo update-alternatives --config java
 - ln -s
     - sudo ln -s src dst
+
+## 基础
+- TCP三次握手、四次挥手
+    -三次握手：
+    
+    
+    -四次挥手：
