@@ -33,7 +33,8 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     Client --> | SYN=1 Seq=random | --> Server
     Server --> | SYN=1 ACK=1 ackNumber=Seq+1 Seq1=random1 | --> Server
     Client --> | ACK=1 ackNumber=Seq1+1 | --> Server
-    ```          
+    ```   
+    <img src="https://github.com/JoyBeginner/Q-A/blob/master/pics/sh.png">
      
     - 四次挥手：
     ```mermaid
@@ -43,3 +44,4 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     Server --> | FIN=1 | --> Client
     Client --> | ACK=1 ackNumber=Seq1+1 | --> Server    
     ```  
+    <img src="https://github.com/JoyBeginner/Q-A/blob/master/pics/bye.png">
