@@ -38,7 +38,8 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - 四次挥手：
     ```mermaid
     graph Bye4
-    Client --> | SYN=1 Seq=random | --> Server
-    Server --> | SYN=1 ACK=1 ackNumber=Seq+1 Seq1=random1 | --> Server
-    Client --> | ACK=1 ackNumber=Seq1+1 | --> Server
+    Client --> | FIN=1 Seq=random | --> Server
+    Server --> | ACK=1 ackNumber=Seq+1 Seq1=random1 | --> Server
+    Server --> | FIN=1 | --> Client
+    Client --> | ACK=1 ackNumber=Seq1+1 | --> Server    
     ```  
