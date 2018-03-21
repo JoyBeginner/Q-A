@@ -7,7 +7,6 @@
 ## 数据结构
 ## 操作系统
 ## 协议
-## 基础
 - TCP三次握手、四次挥手
     - Seq(32 bit) ackNumber(32 bit) URG、ACK、PSH、RST、SYN、FIN(each 1 bit)
     - 三次握手：
