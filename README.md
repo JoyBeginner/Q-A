@@ -49,7 +49,7 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
         update-alternatives --config java 并不改变,因为先查在前的PATH
 - jupyter notebook
     - jupyter notebook --generate-config
-        -Overwrite ~/.jupyter/jupyter_notebook_config.py with default config? [y/N]n
+        - Overwrite ~/.jupyter/jupyter_notebook_config.py with default config? [y/N]n
 
      
      
