@@ -31,6 +31,7 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - :quit
 - py logout
     - exit()
+- ssh-keygen -t rsa -C "your_email@example.com"
 - wireshark SSLLOGFILE:
     - sudo -> false
     - su (open wireshark & browser in terminal) -> true
