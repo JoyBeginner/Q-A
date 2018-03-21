@@ -1,6 +1,17 @@
 # Q-A
 Here is the PROBLEM&amp;SOLUTION I ever met.
 
+## git
+- push
+    - git clone
+    - git init
+    - git add
+    - git commit -m
+    - git remote add origin *.git
+        - *.git == git@github.com/*.git -> fatal:not a respository **NOT SOLVED**
+        - ssh -> already added.
+    - git push -u origin master
+
 ## Tips
 - jshell logout:
     - \exit
@@ -23,6 +34,7 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - 结果:
     
         update-alternatives --config java 并不改变,因为先查在前的PATH
+     
 
 ## 基础
 - TCP三次握手、四次挥手
