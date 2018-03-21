@@ -8,7 +8,7 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - git add
     - git commit -m
     - git remote add origin *.git
-        - *.git == git@github.com/*.git -> fatal:not a respository **NOT SOLVED**
+        - *.git == git@github.com/*.git -> fatal:not a git respository **NOT SOLVED**
         - ssh -> already added.
     - git push -u origin master
 
