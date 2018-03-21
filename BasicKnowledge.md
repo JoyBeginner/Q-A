@@ -8,7 +8,7 @@
 
 [4.协议](#protocol)
 
-[5.C/C++](#c-and-c\+\+)
+[5.C/C++](#c-and-cpp)
 
 [6.JAVA](#java)
 
@@ -53,7 +53,7 @@
     
     
 [返回目录](#contents)
-## C AND C++
+## C AND CPP
 
 [返回目录](#contents)
 ## JAVA
