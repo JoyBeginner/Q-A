@@ -8,9 +8,9 @@
 
 [4.协议](#protocol)
 
-[5.C/C++](#C/C++)
+[5.C/C++](#c/c++)
 
-[6.JAVA](#JAVA)
+[6.JAVA](#java)
 
 ## questions
 - 3.21
@@ -18,8 +18,17 @@
     - C++: 宏
     - 数据结构: 单链表struct写
     - github markdown描点[](#)不支持中文标题
+    
+    
+[返回目录](#contents)
 ## statics structure
+
+
+[返回目录](#contents)
 ## os
+
+
+[返回目录](#contents)
 ## protocol
 - TCP三次握手、四次挥手
     - Seq(32 bit) ackNumber(32 bit) URG、ACK、PSH、RST、SYN、FIN(each 1 bit)
@@ -41,5 +50,12 @@
     Client --> | ACK=1 ackNumber=Seq1+1 | --> Server    
     ```  
     <img src="pics/bye.png">
+    
+    
+[返回目录](#contents)
 ## C/C++
+
+[返回目录](#contents)
 ## JAVA
+
+[返回目录](#contents)
