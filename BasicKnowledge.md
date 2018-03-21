@@ -1,6 +1,6 @@
 # BasicKnowledge
 # Contents
-[4.协议](# 协议)
+[4.协议](#what)
 ## 日期与问题
 - 3.21
     - 面试题: 进程与线程
@@ -8,6 +8,7 @@
     - 数据结构: 单链表struct写
 ## 数据结构
 ## 操作系统
+## what
 ## 协议
 - TCP三次握手、四次挥手
     - Seq(32 bit) ackNumber(32 bit) URG、ACK、PSH、RST、SYN、FIN(each 1 bit)
