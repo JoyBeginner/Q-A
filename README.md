@@ -64,4 +64,5 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
 ## 安装与配置
 - apache2 php7 mysql
     - apache2 apache2-mod-php7.0 php7.0 php7.0-mysql mysql-server mysql-client
+    - config files:fpm/php.ini cli/php.ini apache2/conf.d
 -Hadoop spark jdk scala
