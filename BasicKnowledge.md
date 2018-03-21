@@ -1,15 +1,21 @@
 # BasicKnowledge
 # Contents
-[4.协议](#what)
-## 日期与问题
+[1.日期与问题](#questions)
+[2.日期与问题](#statics-structure)
+[3.日期与问题](#os)
+[4.协议](#protocol)
+[5.日期与问题](#C/C++)
+[6.日期与问题](#JAVA)
+
+## questions
 - 3.21
     - 面试题: 进程与线程
     - C++: 宏
     - 数据结构: 单链表struct写
-## 数据结构
-## 操作系统
-## what
-## 协议
+    - github markdown描点[](#)不支持中文标题
+## statics structure
+## os
+## protocol
 - TCP三次握手、四次挥手
     - Seq(32 bit) ackNumber(32 bit) URG、ACK、PSH、RST、SYN、FIN(each 1 bit)
     - 三次握手：
