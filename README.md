@@ -26,13 +26,19 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
 
 ## 基础
 - TCP三次握手、四次挥手
+    - Seq(32 bit) ackNumber(32 bit) URG、ACK、PSH、RST、SYN、FIN(each 1 bit)
     - 三次握手：
     ```mermaid
     graph Shake3
     Client --> | SYN=1 Seq=random | --> Server
     Server --> | SYN=1 ACK=1 ackNumber=Seq+1 Seq1=random1 | --> Server
     Client --> | ACK=1 ackNumber=Seq1+1 | --> Server
-    ```
-           
+    ```          
      
     - 四次挥手：
+    ```mermaid
+    graph Bye4
+    Client --> | SYN=1 Seq=random | --> Server
+    Server --> | SYN=1 ACK=1 ackNumber=Seq+1 Seq1=random1 | --> Server
+    Client --> | ACK=1 ackNumber=Seq1+1 | --> Server
+    ```  
