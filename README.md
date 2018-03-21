@@ -10,6 +10,9 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - git remote add origin *.git
         - *.git == git@github.com/*.git -> fatal:not a git respository **NOT SOLVED**
         - ssh -> already added.
+            - **SOLVED**
+            - git@github.com/*.git -> false
+            - git@github.com:*.git -> right
     - git push -u origin master
 
 ## Tips
