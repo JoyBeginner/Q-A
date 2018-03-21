@@ -1,11 +1,16 @@
 # BasicKnowledge
 # Contents
 [1.日期与问题](#questions)
-[2.日期与问题](#statics-structure)
-[3.日期与问题](#os)
+
+[2.数据结构](#statics-structure)
+
+[3.操作系统](#os)
+
 [4.协议](#protocol)
-[5.日期与问题](#C/C++)
-[6.日期与问题](#JAVA)
+
+[5.C/C++](#C/C++)
+
+[6.JAVA](#JAVA)
 
 ## questions
 - 3.21
