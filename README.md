@@ -15,10 +15,15 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - sudo update-alternatives --config java
 - ln -s
     - sudo ln -s src dst
+- jdk8 jdk9 update-alternatives
+    - ~/.bashrc 添加 JAVA_HOME CLASSPATH PATH(bin java) <- 设置PATH=$JAVA_PATH:$PATH
+    - update-alternatives --config java <- 改变/usr/bin/java的指向
+    - 结果:
+        update-alternatives --config java 并不改变,因为先查在前的PATH
 
 ## 基础
 - TCP三次握手、四次挥手
-    -三次握手：
-    
-    
-    -四次挥手：
+    - 三次握手：
+        
+     
+    - 四次挥手：
