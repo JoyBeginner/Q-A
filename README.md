@@ -27,6 +27,12 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
 ## 基础
 - TCP三次握手、四次挥手
     - 三次握手：
-        
+    ```mermaid
+    graph Shake3
+    Client --> | SYN=1 Seq=random | --> Server
+    Server --> | SYN=1 ACK=1 ackNumber=Seq+1 Seq1=random1 | --> Server
+    Client --> | ACK=1 ackNumber=Seq1+1 | --> Server
+    ```
+           
      
     - 四次挥手：
