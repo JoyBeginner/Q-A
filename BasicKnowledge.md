@@ -8,7 +8,7 @@
 
 [4.协议](#protocol)
 
-[5.C/C++](#c\/c++)
+[5.C/C++](#c-and-c++)
 
 [6.JAVA](#java)
 
@@ -17,7 +17,7 @@
     - 面试题: 进程与线程
     - C++: 宏
     - 数据结构: 单链表struct写
-    - github markdown描点[](#)不支持中文标题
+    - github markdown描点[](#)不支持中文标题  标题特殊符号C/C++
     
     
 [返回目录](#contents)
@@ -53,7 +53,7 @@
     
     
 [返回目录](#contents)
-## C/C++
+## C AND C++
 
 [返回目录](#contents)
 ## JAVA
