@@ -72,5 +72,6 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - su -> do
     - pip install --upgrade pip
     - pip install jupyter notebook
+    - **pip install --index https://mirrors.ustc.edu.cn/pypi/web/simple/ jupyter notebook**
 
 [返回目录](#contents)
