@@ -1,12 +1,21 @@
 # Q-A
 Here is the PROBLEM&amp;SOLUTION I ever met.
 # contents
+[1.Errors](#errors)
 
-[1.git Cli](#git)
+[2.git Cli](#git)
 
-[2.技巧](#tips)
+[3.技巧](#tips)
 
-[3.安装与配置](#config)
+[4.安装与配置](#config)
+
+## Errors
+- [string "/usr/share/wireshark/init.lua"]:46: dofile has been disabled due to running Wireshark as superuser
+    - 打开 /usr/share/wireshark/init.lua 文件
+    - 将 dofile(DATA_DIR.."console.lua") 修改为 --dofile(DATA_DIR.."console.lua")
+
+
+
 
 ## git
 - push
