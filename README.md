@@ -13,7 +13,8 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
 - [string "/usr/share/wireshark/init.lua"]:46: dofile has been disabled due to running Wireshark as superuser
     - 打开 /usr/share/wireshark/init.lua 文件
     - 将 dofile(DATA_DIR.."console.lua") 修改为 --dofile(DATA_DIR.."console.lua")
-
+- wireshark https
+    - SSLKEYLOGFILE
 
 
 [返回目录](#contents)
