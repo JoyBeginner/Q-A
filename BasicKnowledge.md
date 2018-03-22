@@ -12,6 +12,8 @@
 
 [6.JAVA](#java)
 
+[7.正则表达式](#regex)
+
 ## questions
 - 3.21
     - 面试题: 进程与线程
@@ -58,4 +60,24 @@
 [返回目录](#contents)
 ## JAVA
 
+[返回目录](#contents)
+
+## Regex
+- 量词 贪婪 非贪婪
+    - 量词
+        - * 0或n 
+        - + 1或n
+        - ? 0或1
+        - {n} {n,} {n,m}        
+    - 贪婪: 量词后不加? 表示从?前到匹配?后的串n次
+    - 非贪婪: 量词后加? 表示从?前到匹配?后的串成功一次就不再继续
+- 获取 非获取
+    - 获取: (pat)
+    - 非获取
+        - str(?:pat)  str后匹配pat
+        - str(?=pat)  str后匹配pat
+        - (?<=pat)str  str前匹配pat
+        - str(?!pat)  str后匹配pat
+        - (?<!pat)str  str前匹配pat
+        
 [返回目录](#contents)
