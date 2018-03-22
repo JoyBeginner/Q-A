@@ -1,5 +1,5 @@
 # Q-A
-Here is the PROBLEM&amp;SOLUTION I ever met.
+Here is the PROBLEM &amp; SOLUTION I ever met.
 # contents
 [1.Errors](#errors)
 
@@ -15,6 +15,7 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - 将 dofile(DATA_DIR.."console.lua") 修改为 --dofile(DATA_DIR.."console.lua")
 - wireshark https
     - SSLKEYLOGFILE
+    - wireshark填写与$SSLKEYLOGFILE一致
 
 
 [返回目录](#contents)
