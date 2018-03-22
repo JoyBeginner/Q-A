@@ -70,7 +70,7 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     - sudo -> undo
         - The directory '~/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
     - su -> do
-    - pip --upgrade install pip
+    - pip install --upgrade pip
     - pip install jupyter notebook
 
 [返回目录](#contents)
