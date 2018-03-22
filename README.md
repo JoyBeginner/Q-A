@@ -57,8 +57,20 @@ Here is the PROBLEM&amp;SOLUTION I ever met.
     
 ## config
 - apache2 php7 mysql
-    - apache2 apache2-mod-php7.0 php7.0 php7.0-mysql mysql-server mysql-client
+    - apache2 apache2-mod-php7.0(note libapache2-mod-php7.0) php7.0 php7.0-mysql mysql-server mysql-client
     - config files:fpm/php.ini cli/php.ini apache2/conf.d
 - Hadoop spark jdk scala
+- sogou
+    - fcitx fcitx-config-gtk fcitx-table-all im-swith(note im-config)
+    - dpkg -i *.deb
+- netease-cloud-music
+    - dpkg -i *.deb
+    - sudo apt install -f 
+- pip
+    - sudo -> undo
+        - The directory '~/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+    - su -> do
+    - pip --upgrade install pip
+    - pip install jupyter notebook
 
 [返回目录](#contents)
