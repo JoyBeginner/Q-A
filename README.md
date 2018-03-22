@@ -70,6 +70,8 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
 - apache2 php7 mysql
     - apache2 apache2-mod-php7.0(note libapache2-mod-php7.0) php7.0 php7.0-mysql mysql-server mysql-client
     - config files:fpm/php.ini cli/php.ini apache2/conf.d
+    - ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
+    - /etc/php/7.0/apache2/php.ini 
 - Hadoop spark jdk scala
 - sogou
     - fcitx fcitx-config-gtk fcitx-table-all im-swith(note im-config)
