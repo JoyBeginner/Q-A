@@ -90,7 +90,7 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
     - **pip install --index https://mirrors.ustc.edu.cn/pypi/web/simple/ jupyter notebook**
 - jupyter notebook 
     - 设置主目录: jupyter notebook --generate-config 
-                Writing default config to: /home/per/.jupyter/jupyter_notebook_config.py
+                Writing default config to: ~/.jupyter/jupyter_notebook_config.py
 - idea jetbrains
     - 无法下载插件
     - 卸载重装
