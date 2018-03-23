@@ -81,11 +81,16 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
     - sudo apt install -f 
 - pip
     - sudo -> undo
-        - The directory '~/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+        - The directory '~/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been
+            disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's \              
+            \-H flag.
     - su -> do
     - pip install --upgrade pip
     - pip install jupyter notebook
     - **pip install --index https://mirrors.ustc.edu.cn/pypi/web/simple/ jupyter notebook**
+- jupyter notebook 
+    - 设置主目录: jupyter notebook --generate-config 
+                Writing default config to: /home/per/.jupyter/jupyter_notebook_config.py
 - idea jetbrains
     - 无法下载插件
     - 卸载重装
