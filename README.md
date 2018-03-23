@@ -88,6 +88,13 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
     - pip install --upgrade pip
     - pip install jupyter notebook
     - **pip install --index https://mirrors.ustc.edu.cn/pypi/web/simple/ jupyter notebook**
+    - pip 超时
+        [global]
+        timeout = 6000
+        index-url = http://e.pypi.python.org/simple
+        [install]
+        use-mirrors = true
+        mirrors = http://e.pypi.python.org
 - jupyter notebook 
     - 设置主目录: jupyter notebook --generate-config 
                 Writing default config to: ~/.jupyter/jupyter_notebook_config.py
