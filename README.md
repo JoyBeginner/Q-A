@@ -86,5 +86,11 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
     - pip install --upgrade pip
     - pip install jupyter notebook
     - **pip install --index https://mirrors.ustc.edu.cn/pypi/web/simple/ jupyter notebook**
+- idea jetbrains
+    - 无法下载插件
+    - 卸载重装
+        - 删除目录
+        - 删除~/.IdeaIC2017.3文件夹
+        
 
 [返回目录](#contents)
