@@ -64,7 +64,13 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
 - jupyter notebook
     - jupyter notebook --generate-config
         - Overwrite ~/.jupyter/jupyter_notebook_config.py with default config? [y/N]n
-
+- strace 
+    - 追踪命令交互过程
+    - 标准输出
+        - 0 stdin 
+        - 1 stdout
+        - 2 stderr
+            - 2 > &1
      
      
 [返回目录](#contents)
