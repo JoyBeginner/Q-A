@@ -20,6 +20,8 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
     - 导出的包很大,输出的txt很小
     - sudo tshark -r jd_view_userA03241323_4.pcap -n -Y "ip.host contains \"jd\"" -T fields -e http.host 
         - solution: **su**
+- idea 
+    - invalid cache: 导致"cant solve symbol println"
 
 [返回目录](#contents)
 ## git
