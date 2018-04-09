@@ -22,10 +22,14 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
         - solution: **su**
 - idea 
     - invalid cache: 导致"cant solve symbol println"
+- remarkable
+    - ask for "install pygtkspellcheck" but err occurs "prob when import enchant" but enchant doesn't exist.
+        - solved by pip install pyenchant.
+	
 
 [返回目录](#contents)
 ## git
-- push
+- push first time
     - git clone
     - git init
     - git add
@@ -38,6 +42,16 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
             - git@github.com:*.git -> right
     - git push -u origin master
 
+- push second time
+    - git init
+    - git add -A(or .):A新增修改删除   .新增修改
+    - git commit -m ./
+    - git push -u origin *.git
+    	- origin
+    	    - git remote set-url --add origin: 向当前增加
+    	    - git remote -v: 查看远程库信息
+    -config: 1. git config -e
+    		 2. ./git/config 
 
 [返回目录](#contents)
 ## Tips
