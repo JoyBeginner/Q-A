@@ -87,7 +87,8 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
         - 1 stdout
         - 2 stderr
             - 2 > &1
-     
+- idea
+    - ^q 查看方法的包及参数、返回数据类型
      
 [返回目录](#contents)
     
