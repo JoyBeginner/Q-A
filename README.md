@@ -61,8 +61,7 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
     	- origin
     	    - git remote set-url --add origin: 向当前增加
     	    - git remote -v: 查看远程库信息
-    -config: 1. git config -e
-    		 2. ./git/config 
+    -config:  git config -e  or  查看./git/config 
 
 [返回目录](#contents)
 ## Tips
