@@ -25,8 +25,19 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
 - remarkable
     - ask for "install pygtkspellcheck" but err occurs "prob when import enchant" but enchant doesn't exist.
         - solved by pip install pyenchant.
+- linux下
+	- cmake : gcc -> make -> cmake
+	- Makefile	
+	- 命令 : c++  ld
+	- 内核 
+	- gtm
+	- dkms
+	- 写程序注意写每一步出错返回什么,让用程序的人好找到错误
+	- 注意看程序的返回值,注重实践
+	- .h .cpp std::isnan()
+	    - 当使用<iostream.h>时，相当于在c中调用库函数，使用的是全局命名空间，也就是早期的c++实现；当使用<iostream>的时候，该头文件没有定义全局命名空间，必须使用namespace std
 	
-
+	
 [返回目录](#contents)
 ## git
 - push first time
@@ -90,6 +101,10 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
 - idea
     - ^q 查看方法的包及参数、返回数据类型
      
+- jupyter notebook
+    - shift+tab 查看函数方法   
+    - 作图显示  %matplotlib inline   and   show()
+      
 [返回目录](#contents)
     
 ## config
