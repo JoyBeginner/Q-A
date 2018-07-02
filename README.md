@@ -223,7 +223,7 @@ Here is the PROBLEM &amp; SOLUTION I ever met.
         - 删除目录
         - 删除~/.IdeaIC2017.3文件夹
 - tensorflow
-	- # */anaconda2/bin/pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp27-none-linux_x86_64.whl
+	- */anaconda2/bin/pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.1.0-cp27-none-linux_x86_64.whl
         
 
 [返回目录](#contents)
