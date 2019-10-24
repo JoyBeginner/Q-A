@@ -58,5 +58,8 @@
         - slf4j
         - 打印到控制台、输出到文件
             - 都是一个输出的过程，只是输出的地方不同。打印到控制台是输出后，被控制台程序读入；输出到文件，就是追加写入或者覆盖写入文件
+- **9.10**
+    - stackTrace
+        - https://stackoverflow.com/questions/1167888/how-do-i-increase-the-number-of-displayed-lines-of-a-java-stack-trace-dump
 
 [返回目录](#contents)
