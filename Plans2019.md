@@ -2,7 +2,9 @@
 
 ## contents
 
-[1.九月三日至九月底](#Sept)
+[1.九月](#Sept)
+
+[2.十一月](#Nov)
 
 ## 2019
 
@@ -62,6 +64,8 @@
     - stackTrace
         - [stackTrace/logger](https://stackoverflow.com/questions/1167888/how-do-i-increase-the-number-of-displayed-lines-of-a-java-stack-trace-dump)
 
+
+### Nov
 - **11.05**
     - zuul、ribbon、feign、hytrix功能与设置
         - zuul
@@ -270,6 +274,10 @@
     - 路由
         - 子网掩码
             - 192.168.1.1/24 表示ip是192.168.1.1, 子网掩码是255.255.255.0 ，24表示24个1
+            - 在发出、收到的IP包里都有子网掩码，这样网络层可以计算
+        - 网关与NAT
+            - 子网划分与dhcp
+                - 
     - 网络隧道
         - 以一种网络协议传输另一种网络协议，比如我自定义一个协议叫my protocol，在http协议里传输，那就是my protocol隧道，也就是只要在my protocol和http之间加一层处理，就能使得这一切像是my protocol的协议在起作用一样，在现有网络的基础上建立起来了一个my protocol适用的网络，**my protocol隧道协议**，隧道协议高于或者等于负载协议的层级。如
             - tls(ssl)
@@ -281,5 +289,93 @@
             - 
         - 使用隧道的原因是在不兼容的网络上传输数据，或在不安全网络上提供一个安全路径
         - 通过网络隧道技术，可以使隧道两端的网络组成一个更大的内部网络。（把不支持的协议数据包打包成支持的协议数据包之后进行传输）
+- **11.21**
+    - 数据库连接
+        - 连接、会话、commit(事务)
+            - 
+        - 
+    - 开发环境IDE
+        - 以java、maven的IDE为例
+            - 当你“配置”的时候其实发生了什么呢？为什么只需要选择一些复选框或者填入一些location就能实现很多功能？其实是利用了java和maven的命令行工具，例如javac、mvn。
+                - lib，把什么加入lib，把什么配置为src，什么为test，什么为target，是一个原理，就是在这些命令行参数里就有可以指定这些地方的option，IDE做的只是把你配置的参数填进去。
+                - 
+            - 矛盾，比如IDEA有一个build的选项，maven也有build，想一想，IDEA和maven的这个操作，低层其实都是应用了javac去把源文件编译为class，但是，idea、maven都是按照自己build的配置去build，所以两个build的结果是不同的。比如idea可以用spring在idea的插件的配置去build，maven使用用户配置的plugin和配置option去build。
+    - linux 命令
+        - ``
+        - {}
+        - ""
+        - ''
+        - find -not/-a/-o -name
+        - 
+    - emoji与utf8
+        - MYSQL 5.5 之前，UTF8 编码只支持1-3个字节，只支持[BMP这部分的unicode编码区](http://en.wikipedia.org/wiki/Mapping_of_Unicode_characters)，基本就是0000～FFFF这一区。 从MYSQL5.5开始，可支持4个字节UTF编码utf8mb4，一个字符最多能有4字节，所以能支持更多的字符集
+        - [编码](http://www.fmddlmyy.cn/text6.html)
+        - 数据库
+            - UTF-8编码有可能是两个、三个、四个字节。Emoji表情是4个字节，而Mysql的utf8编码最多3个字节，所以数据插不进去。
+        - mysqld -> server daemon
+            - character-set-client-handshake = FALSE
+            - character-set-server = utf8mb4
+            - collation-server = utf8mb4_unicode_ci
+            - init_connect='SET NAMES utf8mb4'
+        - mysql -> client
+            - default-character-set = utf8mb4
+        - 
+- **11.25**
+    - java cmd工具
+        - javac
+            - options
+                - classpath
+        - java
+            - options
+                - [java HotSpot VM Options](https://www.oracle.com/technetwork/java/javase/tech/vmoptions-jsp-140102.html)
+                - javaagent
+                - [Xms等设置 1](https://blog.csdn.net/losetowin/article/details/78569001)
+                - [Xms等设置 2](https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html)
+    - Jvm
+        - 
+    - maven
+        - cmd工具 mvn
+            - 对类进行配置
+                - 这个不是反射，而是利用写好的类，配置他们的属性(setter、getter)，以控制其表现方式
+                - options
+                - 配置文件(与options作用是一样的)
+    - 反射
+        - Read正在运行的类
+        - Write正在运行的类
+    - 代理
+        - cglib
+        - jdkproxy
+        - 字节手术刀
+
+    - lambda
+        - [eta转换](https://stackoverflow.com/questions/39445018/what-is-the-eta-expansion-in-scala)
+            - 把labmda表达式写为函数名<img src='pics/eta.png'>
+        - [java lambda 1](http://zh.lucida.me/blog/java-8-lambdas-insideout-language-features/)
+        - [java lambda 2](http://liwenkun.me/2017/03/23/java-8-method-references)
+        - 
+
+- **11.26**
+    - [blog](https://morvanzhou.github.io/about/)
+
+- **11.27**
+    - http数据包
+        - <img src='pics/http7.png'>
+        - <img src='pics/http8.png'>
+        - <img src='pics/http9.png'>
+        - <img src='pics/http10.png'>
+        - <img src='pics/http11.png'>
+        - <img src='pics/http12.png'>
+    - nslookup使用的时候域名一个字符都不能多
+        - xxx.com    -> good
+        - www.xxx.com    -> bad
+        - xxx.com/    -> bad
+        - http://xxx.com    -> bad
+    - tab
+        - 小tab
+        - tab
+
+- **11.28**
+    - 源码
+        - 
 
 [返回目录](#contents)
